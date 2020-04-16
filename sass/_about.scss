@@ -1,0 +1,53 @@
+.about {
+   padding-top: 70px;
+   padding-bottom: 70px;
+   .image {
+       
+       text-align: center;
+       padding-top: 10px;
+   }
+   .content {
+   
+    display: flex;
+    flex-direction: column;
+    @media only screen and(max-width:768px) {
+        align-items: center;
+        margin-top: 20px;
+      }
+       .title {
+        color: #413d4b;
+        font-family: "Playfair Display";
+        font-size: 22px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.1px
+       }
+       .text {
+        color: #413d4b;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        letter-spacing: 0.42px;
+        margin: 30px 0;
+       }
+       .button {
+        width: 120px;
+        height: 40px;
+        border: 1px solid $myColor;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            color: $myColor;
+            font-family: "Hammersmith One";
+            font-size: 16px;
+            font-weight: 400;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+       }
+   }
+    
+}
