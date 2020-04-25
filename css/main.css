@@ -10,7 +10,7 @@
  */
 .header {
   min-height: 670px;
-  background: linear-gradient(to right, rgba(9, 5, 47, 0.85) 0%, rgba(49, 29, 94, 0.85) 100%), url(/images/header/header_bg.png) center center no-repeat;
+  background: linear-gradient(to right, rgba(9, 5, 47, 0.85) 0%, rgba(49, 29, 94, 0.85) 100%), url(../images/header/header_bg.png) center center no-repeat;
   background-size: cover; }
   .header .nav__wrap {
     display: flex;
@@ -206,7 +206,7 @@
 
 .video {
   min-height: 550px;
-  background: linear-gradient(to right, rgba(9, 5, 47, 0.85) 0%, rgba(49, 29, 94, 0.85) 100%), url(/images/about/video_bg.png) center center no-repeat;
+  background: linear-gradient(to right, rgba(9, 5, 47, 0.85) 0%, rgba(49, 29, 94, 0.85) 100%), url(../images/about/video_bg.png) center center no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -290,7 +290,7 @@
 
 .team {
   min-height: 712px;
-  background: linear-gradient(to right, rgba(9, 5, 47, 0.85) 0%, rgba(49, 29, 94, 0.85) 100%), url(/images/team/team_bg.png) center center no-repeat;
+  background: linear-gradient(to right, rgba(9, 5, 47, 0.85) 0%, rgba(49, 29, 94, 0.85) 100%), url(../images/team/team_bg.png) center center no-repeat;
   background-size: cover;
   padding-top: 70px;
   padding-bottom: 70px;
@@ -439,7 +439,7 @@
 
 .reviews {
   min-height: 500px;
-  background: linear-gradient(to right, rgba(9, 5, 47, 0.85) 0%, rgba(49, 29, 94, 0.85) 100%), url(/images/reviews/reviews_bg.png) center center no-repeat;
+  background: linear-gradient(to right, rgba(9, 5, 47, 0.85) 0%, rgba(49, 29, 94, 0.85) 100%), url(../images/reviews/reviews_bg.png) center center no-repeat;
   background-size: cover;
   padding-top: 70px;
   padding-bottom: 70px; }
@@ -616,7 +616,7 @@
 
 .footer {
   min-height: 400px;
-  background: linear-gradient(to right, rgba(9, 5, 47, 0.85) 0%, rgba(49, 29, 94, 0.85) 100%), url(/images/footer/footer_bg.png) center center no-repeat;
+  background: linear-gradient(to right, rgba(9, 5, 47, 0.85) 0%, rgba(49, 29, 94, 0.85) 100%), url(../images/footer/footer_bg.png) center center no-repeat;
   background-size: cover; }
   .footer .wrapper {
     display: flex;
